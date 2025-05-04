@@ -70,14 +70,14 @@ export default function About() {
           <Grid item xs={12} sm={6} md={4} key={index}>
             <Card sx={{ backgroundColor: '#1e1e1e', color: '#fff' }}>
             <CardContent>
-                <Grid container alignItems="center" justifyContent="space-between">
+                <Grid container alignItems="center" justifyContent="space-evenly">
                 {/* Left: Name and Role */}
                 <Grid
                     item
                     sx={{
                     flexBasis: '200px',
                     maxWidth: '200px',
-                    textAlign: 'left',
+                    textAlign: 'center',
                     }}
                 >
                     <Typography variant="h6">{member.name}</Typography>
@@ -107,7 +107,7 @@ export default function About() {
                     sx={{
                     flexBasis: '200px',
                     maxWidth: '200px',
-                    textAlign: 'right',
+                    textAlign: 'center',
                     }}
                 >
                     <Typography variant="body2">
