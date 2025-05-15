@@ -50,7 +50,10 @@ export default function Home() {
                 py: 4,
                 mx: 1,
                 borderRadius: 2,
-                height: 400
+                height: {
+                  xs: 500,
+                  sm: 400
+                }
               }}
             >
               {article.image && (
@@ -100,14 +103,15 @@ export default function Home() {
                 <Typography variant="body2">{article.description}</Typography>
               </CardContent>
               <CardActions>
+                <Link to={`/article/${encodeURIComponent(article.title.toLowerCase().replace(/\s+/g, '-'))}`} style={{ textDecoration: 'none' }}>
                 <Button
                   size="small"
                   variant="outlined"
                   color="primary"
-                  href={article.link}
                 >
                   Read More
                 </Button>
+                </Link>
               </CardActions>
             </Card>
           </Grid>

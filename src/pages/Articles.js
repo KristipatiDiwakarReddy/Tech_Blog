@@ -40,7 +40,7 @@ export const sampleArticles = [
     {
       title: 'OnePlus Nord Review after 2 Years',
       description:
-        ' I have given Oxygen OS 12 F.14 update review along with 2 years of my Experience and Review of this smartphone i.e. OnePlus Nord. I have been using this device as my daily driver/primary smartphone for 2 years.',
+        ' I have given Oxygen OS 12 F.14 update review along with 2 years...',
       link: '#',
       image: 'https://i9.ytimg.com/vi_webp/pJZrdxtaWPY/maxresdefault.webp?v=62fa9ded&sqp=CJCF38AG&rs=AOn4CLDGY8vzLy7IFvpURUetF7Gto9Hwww',
     },

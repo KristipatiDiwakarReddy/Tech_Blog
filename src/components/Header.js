@@ -51,6 +51,9 @@ export default function Header() {
         open={mobileOpen}
         onClose={handleDrawerToggle}
         sx={{ display: { sm: 'none' } }}
+        PaperProps={{
+          sx: { width: 300 }
+        }}
       >
         {drawer}
       </Drawer>
